@@ -41,7 +41,10 @@ export default function DogCard({ dog }: { dog: Dog }) {
             </h3>
             <span className="text-cream/50 text-sm">{dog.age}</span>
           </div>
-          <p className="text-cream/60 text-sm mb-3">{dog.breed}</p>
+          <p className="text-cream/60 text-sm mb-1">{dog.breed}</p>
+          {dog.tagline && (
+            <p className="text-orange italic text-sm font-semibold mb-3">&ldquo;{dog.tagline}&rdquo;</p>
+          )}
           <div className="flex flex-wrap gap-1.5">
             {dog.tags.slice(0, 3).map((tag) => (
               <span

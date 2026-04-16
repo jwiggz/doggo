@@ -9,6 +9,7 @@ export interface Dog {
   weight: string;
   gender: string;
   status: "available" | "adopted" | "foster";
+  tagline: string;
   bio: string;
   photo: string;
   photos: string[];

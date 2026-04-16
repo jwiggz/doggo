@@ -57,7 +57,10 @@ export default async function DogProfilePage({ params }: { params: Promise<{ slu
 
           {/* Info */}
           <div className="flex flex-col justify-center">
-            <h1 className="text-5xl sm:text-6xl font-black mb-4">{dog.name}</h1>
+            <h1 className="text-5xl sm:text-6xl font-black mb-2">{dog.name}</h1>
+            {dog.tagline && (
+              <p className="text-orange italic text-xl font-semibold mb-4">&ldquo;{dog.tagline}&rdquo;</p>
+            )}
 
             <div className="flex flex-wrap gap-4 mb-6 text-cream/60">
               <span className="flex items-center gap-1.5">
