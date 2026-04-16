@@ -29,6 +29,11 @@ export default function Home() {
             We hit the streets with shelter dogs to show the world how amazing
             they are. Every run is a chance for a dog to find their forever home.
           </p>
+          <img
+            src="/gif_2_.gif"
+            alt="Running with dogs"
+            className="mx-auto mb-10 max-w-sm w-full rounded-2xl shadow-[0_0_40px_rgba(255,107,53,0.3)]"
+          />
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/dogs"
