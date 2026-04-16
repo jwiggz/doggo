@@ -1,0 +1,50 @@
+[
+  {
+    "id": "run-001",
+    "title": "Lakefront Loop with Buddy",
+    "dog": "buddy",
+    "dogName": "Buddy",
+    "location": "Milwaukee Lakefront",
+    "date": "2026-04-10",
+    "distance": "3.2 miles",
+    "video": "/videos/buddy-run.mp4",
+    "thumbnail": "/images/dogs/buddy.jpg",
+    "description": "Beautiful morning run along the lakefront. Buddy was all smiles the whole way — this guy is FAST when he wants to be."
+  },
+  {
+    "id": "run-002",
+    "title": "Trail Day with Luna",
+    "dog": "luna",
+    "dogName": "Luna",
+    "location": "Estabrook Park",
+    "date": "2026-04-08",
+    "distance": "4.1 miles",
+    "video": "/videos/luna-run.mp4",
+    "thumbnail": "/images/dogs/luna.jpg",
+    "description": "Luna absolutely crushed the trails today. Her husky endurance is no joke — she was pulling me up the hills!"
+  },
+  {
+    "id": "run-003",
+    "title": "Neighborhood Cruise with Tank",
+    "dog": "tank",
+    "dogName": "Tank",
+    "location": "Bay View Neighborhood",
+    "date": "2026-04-05",
+    "distance": "2.0 miles",
+    "video": "/videos/tank-run.mp4",
+    "thumbnail": "/images/dogs/tank.jpg",
+    "description": "Easy-going jog through Bay View. Tank stopped to greet every single person we passed. This dude is a social butterfly."
+  },
+  {
+    "id": "run-004",
+    "title": "Sunset Sprint with Pepper",
+    "dog": "pepper",
+    "dogName": "Pepper",
+    "location": "Oak Leaf Trail",
+    "date": "2026-03-28",
+    "distance": "5.0 miles",
+    "video": "/videos/pepper-run.mp4",
+    "thumbnail": "/images/dogs/pepper.jpg",
+    "description": "Pepper's last run before she got adopted! She went out with a bang — 5 miles at sunset on the Oak Leaf Trail. We'll miss you, girl."
+  }
+]
